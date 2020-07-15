@@ -53,4 +53,45 @@ body{
     grid-area: women;
 }
 
+.img:hover{
+    filter: grayscale(50%);
+    cursor: pointer;
+    transition: filter .4s;
+}
 
+.container-img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(3, 3, 3, 0.705);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-show{
+    height: 80%;
+    display: block;
+    object-fit: cover;
+}
+
+.copy{
+    position: fixed;
+    color: #FFF;
+    bottom: 40px;
+}
+
+.bx.bx-x{
+    position: absolute;
+    color: #FFF;
+    top:20px;
+    right: 20px;
+    font-size: 40px;
+}
+
+.bx.bx-x:hover{
+    color: #ccc;
+    cursor: pointer;
+}
