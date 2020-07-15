@@ -65,16 +65,28 @@ body{
     width: 100%;
     top: 0;
     left: 0;
+    transform: translateX(-100%);
     background: rgba(3, 3, 3, 0.705);
     display:flex;
     justify-content: center;
     align-items: center;
+    transition: .4s ease-in;
+}
+
+.move{
+    transform: translateX(0);
 }
 
 .img-show{
     height: 80%;
     display: block;
     object-fit: cover;
+    transform: scale(0);
+    transition: transform 2s .4s;
+}
+
+.show{
+    transform: scale(1);
 }
 
 .copy{
