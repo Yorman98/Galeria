@@ -107,3 +107,21 @@ body{
     color: #ccc;
     cursor: pointer;
 }
+
+@media screen and (max-width : 768px){
+
+    .img-show{
+        width: 80%;
+    }
+
+    .copy{
+        bottom: 25px;
+    }
+
+    .bx.bx-x{
+        top: 15px;
+        right: 15px;
+        font-size: 30px;
+    }
+
+}
